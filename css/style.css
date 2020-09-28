@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 @font-face {
-    font-family: 'cloudy_with_a_chance_of_lovRg';
-    src: url('cloudy_with_a_chance_of_love-webfont.woff2') format('woff2'),
-        url('cloudy_with_a_chance_of_love-webfont.woff') format('woff');
+    src: url(../cloudy.ttf);
+    font-family: 'cloudy-with-a-chance-of-love';
     font-weight: normal;
     font-style: normal;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -19,7 +18,7 @@
     --black-color: #1c1c1d;
     --white-color: #fff;
 
-    --primary-font: 'cloudy_with_a_chance_of_lovRg', sans-serif;
+    --primary-font: 'cloudy-with-a-chance-of-love', sans-serif;
     --secondary-font: "gambay", sans-serif;
     --main-text-color: #000;
 
